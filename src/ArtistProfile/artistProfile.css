@@ -1,0 +1,9 @@
+.artistProfile {
+    background: linear-gradient(to bottom, #fef9ed 0%, #fff 100%);
+}
+.artistProfileMain {
+    background: rgb(243, 243, 241);
+    margin: 2rem 1rem;
+    height: 30rem;
+    border-radius: 50px;
+}

@@ -1,0 +1,116 @@
+.createprofileName {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to bottom, #fef9ed 0%, #fff 100%);
+}
+.createprofileH1 {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 35px;
+    color: #818181;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.image-container {
+    width: 50%;
+    overflow: hidden;
+}
+.sideartImg {
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+}
+.inputdiv {
+    margin: 2rem 0;
+}
+.inputdivlabel {
+    font-size: 16px;
+    color: darkgray;
+    margin-left: 3rem;
+    text-transform: uppercase;
+    float: left;
+}
+.inputfield {
+    padding: 1rem;
+    width: 100%;
+    border-radius: 5rem;
+    border: solid 1px darkgray;
+    margin-top: 1rem;
+    outline: none;
+    background-color: white;
+}
+::placeholder {
+    color: lightgray;
+}
+select {
+    color: lightgray;
+}
+.profilelabel {
+    height: 10rem;
+    border: 1px solid #969696;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+}
+.profileimg {
+    width: 8rem;
+    height: 8rem;
+    object-fit: contain;
+}
+
+#file-input {
+    display: none;
+}
+.twoFieldsInaRow {
+    display: flex;
+    justify-content: space-between;
+}
+.dropDowninputfield {
+    width: 436px !important;
+    /* font-size: 1.5rem !important; */
+    background-color: white;
+}
+.profiletextarea {
+    width: 100%;
+    height: 315px;
+    border: solid 1px #9d9c9c;
+    margin-top: 33px;
+    border-radius: 3rem;
+    outline: none;
+    padding: 1.5rem;
+    color: #818181;
+}
+.createaccount {
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    border: 1px solid;
+    outline: none;
+    background: #fed12f;
+    display: block;
+    margin: 52px auto;
+    cursor: pointer;
+    padding: 0.5rem 8rem;
+}
+@media (max-width: 992px) {
+    .createaccount {
+        width: 100%;
+        font-size: 16px !important;
+    }
+}
+@media (max-width: 992px) {
+    .twoFieldsInaRow {
+        display: block !important;
+    }
+    .dropDowninputfield {
+        width: 100% !important;
+    }
+}
+@media (max-width: 680px) {
+    .createprofileH1 {
+        font-size: 20px;
+    }
+}
